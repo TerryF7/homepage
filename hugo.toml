@@ -25,7 +25,8 @@ languageName = "English"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = true
 # default amount of posts in each pages
-paginate = 12
+[pagination]
+  pagerSize = 10
 # copyright description used only for seo schema
 copyright = ""
 # whether to use robots.txt
@@ -186,7 +187,7 @@ enableEmoji = true
 
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = "posts/:slugorfilename"
+  posts = "posts/:slugorcontentbasename/"
 
 # -------------------------------------------------------------------------------------
 # Privacy Configuration
@@ -194,7 +195,7 @@ enableEmoji = true
 # -------------------------------------------------------------------------------------
 
 [privacy]
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
@@ -531,13 +532,13 @@ enableEmoji = true
       # title shown in home page (HTML format is supported)
       title = "Terry Feng"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Research Assistant | Tongji University"
+      subtitle = "Research Assistant (Former) | Tongji University"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
       social = true
       # disclaimer (HTML format is supported)
-      disclaimer = "Hello."
+      disclaimer = "Currently applying for Master’s programs"
     # Home page posts
     [params.home.posts]
       enable = false
@@ -1014,7 +1015,7 @@ enableEmoji = true
     # social share links in post page
     [params.page.share]
       enable = true
-      Twitter = true
+      X = true
       Facebook = true
       Linkedin = false
       Whatsapp = false
