@@ -532,7 +532,7 @@ enableEmoji = true
       # title shown in home page (HTML format is supported)
       title = "Terry Feng"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Research Assistant (Former) | Tongji University"
+      subtitle = "Research Assistant | Tongji University"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links

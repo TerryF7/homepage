@@ -21,7 +21,7 @@ B.Eng. in Optoelectronic Information Science and Engineering
 ## 💼 Work Experience
 
 **Research Assistant – Tongji University**, Shanghai, China  
-*2024.08 – 2025.06*  
+*2024.08 – Present*  
 
 - Conducted research on **computational imaging**, **machine learning**, and **edge computing**.  
 - Worked with [IPOE](https://ipoe.tongji.edu.cn/en/) on the development and optimization of imaging and compression algorithms.
@@ -33,7 +33,7 @@ B.Eng. in Optoelectronic Information Science and Engineering
 - **Edge-accelerated reconstruction using sensitivity analysis for single-lens computational imaging**  
   Xuquan Wang#; **Tianyang Feng#**; Yujie Xing#; et al.  
   *Advanced Imaging*, 2025, 2(3): 031001.  
-  [📄 DOI: 10.3788/AI.2025.10003](http://dx.doi.org/10.3788/AI.2025.10003)  
+  [📄 DOI: 10.3788/AI.2025.10003](http://doi.org/10.3788/AI.2025.10003)  
   > **#** indicates co-first authorship.
 
 ---
