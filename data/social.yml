@@ -1,0 +1,8 @@
+# CV (Custom)
+cv:
+  Weight: 0
+  Url: /CV.pdf
+  Title: CV
+  Newtab: true
+  Icon:
+    Class: fa-solid fa-file-pdf fa-fw

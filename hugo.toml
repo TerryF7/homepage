@@ -43,29 +43,6 @@ enableEmoji = true
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    parent = ""
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "About"
-    url = "/about/"
-    # title will be shown when you hover on this menu link
-    title = "About"
-    weight = 1
-    # FixIt 0.2.14 | NEW add user-defined content to menu items
-    [menu.main.params]
-      # add css class to a specific menu item
-      class = ""
-      # whether set as a draft menu item whose function is similar to a draft post/page
-      draft = false
-      # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
-      icon = "fa-solid fa-user"
-      # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
-      type = ""
-      # FixIt 0.3.9 | NEW whether to show the submenu item divider line
-      divided = false
 
 # -------------------------------------------------------------------------------------
 # Related content Configuration
@@ -524,21 +501,21 @@ enableEmoji = true
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = "me@terryfeng.com"
+      gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = ""
+      avatarURL = "/avatar.png"
       # FixIt 0.2.17 | NEW identifier of avatar menu link
       avatarMenu = ""
       # title shown in home page (HTML format is supported)
       title = "Terry Feng"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Research Assistant | Tongji University"
+      subtitle = "MSAI | NTU"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
       social = true
       # disclaimer (HTML format is supported)
-      disclaimer = "Currently applying for Master’s programs"
+      disclaimer = "Enjoy life."
     # Home page posts
     [params.home.posts]
       enable = false
